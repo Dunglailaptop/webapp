@@ -231,6 +231,15 @@ margin-top: 12px;
    .container__logo{
        display: none;
    }
+   .thoat{
+    display:block;
+    position: absolute;
+    top: 50px;
+    background-color: black;
+}
+.thoat a{
+    color:white;
+}
 
 }
 /* tablet */

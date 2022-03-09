@@ -11,7 +11,7 @@ background-color: white;
 padding: 0 12px;
 }
 .thoat{
-    display: none;
+    display: block;
 }
 .header__icon{
 display: flex;
@@ -242,6 +242,7 @@ margin-top: 12px;
   .thoat a{
       color:white;
   }
+
 }
 /* tablet */
 @media only screen and(min-width: 46.25em) and (max-width:63.9375em){
