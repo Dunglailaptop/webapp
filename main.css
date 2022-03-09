@@ -42,6 +42,7 @@ display: flex;
 }
 .iconadd{
     padding: 0 5px;
+    
 }
 .header__start--1--text2{
     list-style: none;
@@ -866,6 +867,10 @@ a.btn:hover{
     .footer-col {
         width: 40%;
         padding: 0 15px;
+    }
+    .iconadd{
+        padding: 0 5px;
+        font-size: 20px;
     }
  }
  /* tablet */
