@@ -22,18 +22,18 @@ and open the template in the editor.
              <div class="header__start">
                  <ul class="header__start--1">
                      <li class="header__start--1--text1">
-                         <a href="#" class="header__start--1--text1--link1">liên hệ</a>
+                         <a href="#" class="header__start--1--text1--link1"><i class="fa-solid fa-phone iconadd"></i>liên hệ</a>
                      </li>
                      <li class="header__start--1--text2">
-                        <a href="#" class="header__start--1--text1--link1">Trợ giúp</a>
+                        <a href="#" class="header__start--1--text1--link1"><i class="fa-solid fa-circle-question  iconadd"></i>Trợ giúp</a>
                     </li>
                  </ul>
                  <ul class="header__start--2">
                     <li class="header__start--1--text1">
-                        <a href="#" class="header__start--1--text1--link1">Đăng ký</a>
+                        <a href="dngky.html" class="header__start--1--text1--link1"><i class="fa-solid fa-user-plus  iconadd"></i>Đăng ký</a>
                     </li>
                     <li class="header__start--1--text2">
-                       <a href="#" class="header__start--1--text1--link1">Đăng nhập</a>
+                       <a href="login.html" class="header__start--1--text1--link1"><i class="fa-solid fa-user  iconadd"></i>Đăng nhập</a>
                    </li>
                 </ul>
              </div>
@@ -55,16 +55,15 @@ and open the template in the editor.
                  </div>
                 </div>
                <div class="header__moblie">
-                <div class="header__mid--icon1 header__listmobile">
+                <label for="nav__mobile--input" class="header__mid--icon1 header__listmobile">
                     <div class="header__mid--icon1--button">
                         <div class="header__mid--icon1--button--icon">
-                           <i class="fa-solid fa-house-chimney"></i>
+                            <i class="fa-solid fa-bars"></i>
                         </div>
-                        <div class="header__mid--icon1--text">
-                           Trang Chủ
-                        </div>
+                        
                     </div>
-                </div>
+                </label>
+               
                  <div class="header__mid--icon1">
                      <a href="#" class="header__hover">
                     <div class="header__mid--icon1--button">
@@ -117,6 +116,54 @@ and open the template in the editor.
             </div>
              </div>
             </div>
+            <!-- mobile -->
+           <input type="checkbox" hidden name="" class="nav__input" id="nav__mobile--input">
+
+            <label for="nav__mobile--input" class="nar__overlay">
+                    
+            </label>
+            <nav class="menu__mobile">
+            <div class="logo__mobile">
+                <img src="./picture/logo.png">
+
+            </div>
+                    <label for="nav__mobile--input" class="nav__mobile--close">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+               <div class="mobile__fromloginloginout">  
+                     <div class="login1 ha"><a href="dngky.html"><i class="fa-solid fa-user-plus  iconadd"></i>Đăng ký</a></div> 
+                      <div class="login2 ha"><a href="login.html"><i class="fa-solid fa-user  iconadd"></i>Đăng nhập</a></div>
+                </div>
+                 
+        
+                <h3 class="menu__mobile--dm">Danh mục</h3>
+                <ul class="menu__mobile--list">
+                    <li class="menu__mobile--list--li">
+                        <a href="" class="menu__a">
+                            <i class="fa-solid fa-gamepad"></i>
+                            laptop gaming</a>
+                    </li>
+                        <li class="menu__mobile--list--li">
+                            <a href="" class="menu__a">  <i class="fa-solid fa-laptop"></i>
+                                laptop máy trạm</a>
+                        </li>    
+                                <li class="menu__mobile--list--li"><a href="" class="menu__a">
+                                    <i class="fa-solid fa-desktop"></i>
+                                    máy bộ pc</a>
+                                </li>
+                                    <li class="menu__mobile--list--li">
+                                        <a href="" class="menu__a">
+                                            <i class="fa-solid fa-laptop-code"></i>
+                                        laptop văn phòng</a>
+                                    </li>
+                </ul>
+                <h3 class="menu__mobile--dm">Hỗ trợ vấn đề khác</h3>
+                <div class="thongtin">
+                    <div class="menu__mobile--help active"><i class="fa-solid fa-phone iconadd"></i>liên hệ</div>
+                    <div class="menu__mobile--info active"><i class="fa-solid fa-circle-question  iconadd"></i>Trợ giúp</div>
+                </div>
+               
+            </nav>
             <div class="container">
                 <div class="container__market">
                     <div class="container__market--1">
@@ -410,21 +457,94 @@ and open the template in the editor.
                                             </a>
                                             
                                             </div>
-                           
+                                            <ul class="pagination home-product-pagination">
+                                                <li class="pagination_item ">
+                                                    <a href="" class="pagination_item_link">
+                                                        <i class="pagination_item_icon fas fa-angle-left"></i>
+                                                    </a>
+                                                </li>
+                                           
+                                                <li class="pagination_item pagination_item_active">
+                                                    <a href="#" class="pagination_item_link">
+                                                    1
+                                                    </a>
+                                                </li>
+                                                 <li class="pagination_item">
+                                                    <a href="" class="pagination_item_link">
+                                                       2
+                                                    </a>
+                                                 </li><!-- comment -->
+                                           
+                                                 <li class="pagination_item">
+                                                    <a href="" class="pagination_item_link">
+                                                        <i class="pagination_item_icon fas fa-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
                        
                      
                        
                     </div>
                    
-                    
+                   
                    </div>
                </div>
               
               
            </div>
-            <div class="footer">
 
+           <div class="footer">
+            <div class="container-footer">
+                <div class="row-footer">
+                    <div class="footer-col">
+                        <h4>
+                            company
+                        </h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our service</a></li><!-- comment -->
+                            <li><a href="#">privacy policy</a></li><!-- comment -->
+                            <li><a href="#">affiliate program</a></li>
+                        </ul>
+                    </div>
+                      <div class="footer-col">
+                        <h4>
+                            get help
+                        </h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li><!-- comment -->
+                            <li><a href="#">returns</a></li><!-- comment -->
+                            <li><a href="#">order status</a></li>
+                             <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                      <div class="footer-col">
+                        <h4>
+                            online shop
+                        </h4>
+                        <ul>
+                            <li><a href="#">watch</a></li>
+                            <li><a href="#">bags</a></li><!-- comment -->
+                            <li><a href="#">shoes</a></li><!-- comment -->
+                            <li><a href="#">dress</a></li>
+                        </ul>
+                      </div><!-- comment -->
+                        <div class="footer-col">
+                        <h4>
+                            follow us
+                        </h4>
+                            <div class="footer-icon">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a><!-- comment -->
+                            <a href="#"><i class="fab fa-instagram"></i></a><!-- comment -->
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a><!-- comment -->
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
         </div>
       
         
